@@ -11,8 +11,8 @@ Group:		X11/Applications/Graphics
 # http://registry.gimp.org/file/dcamnoise2-0.63.c?action=download&id=6329
 Source0:	%{plugin_name}-%{version}.c
 URL:		http://registry.gimp.org/plugin?id=5610
-BuildRequires:	gimp-devel
-Requires:	gimp >= 2.0
+BuildRequires:	gimp-devel >= 1:2.0
+Requires:	gimp >= 1:2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir	%(gimptool --gimpplugindir)/plug-ins
@@ -23,7 +23,7 @@ effective. It is present in image menu, under Filters/Enhance.
 
 %description -l pl
 Wtyczka usuwaj±ca szumy wprowadzane przez aparaty cyfrowe. Bardzo
-skuteczna. Jest dostêpny w menu obrazka, w podmenu Filtry/Uwydatnianie
+skuteczna. Jest dostêpna w menu obrazka, w podmenu Filtry/Uwydatnianie
 (ang. Filters/Enhance).
 
 %prep
