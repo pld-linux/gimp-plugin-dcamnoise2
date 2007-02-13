@@ -2,7 +2,7 @@
 %define		plugin_name	dcamnoise2
 
 Summary:	Plugin for removing noise introduced by digital cameras
-Summary(pl.UTF-8):   Wtyczka usuwająca szumy wprowadzane przez aparaty cyfrowe
+Summary(pl.UTF-8):	Wtyczka usuwająca szumy wprowadzane przez aparaty cyfrowe
 Name:		gimp-plugin-%{plugin_name}
 Version:	0.63
 Release:	1
